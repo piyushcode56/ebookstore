@@ -1,0 +1,38 @@
+.signup-page{
+    background-image: url('https://img.freepik.com/free-photo/top-view-books-with-copy-space_23-2148827187.jpg');
+    /* width: 1180px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    padding: 20px;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+}
+.signup-form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.signup-form button{
+    
+    padding: 10px;
+    background-color: rgb(50, 186, 50);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}

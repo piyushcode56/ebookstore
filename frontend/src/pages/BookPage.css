@@ -1,0 +1,55 @@
+.book-page{
+    width: 1180px;
+    margin: 50px 80px;
+}
+.book{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.book img{
+    width: 250px;
+}
+.product-links {
+    display: flex;
+    gap: 20px;
+}
+.read-now a{
+    background-color: lightyellow;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.read-now a:hover{
+    background-color: yellow;
+}
+.buy-now a{
+    background-color: lightgreen;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-now a:hover{
+    background-color: green;
+
+}
+
+.book-other-details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add-to-cart{
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgb(32, 32, 3);
+    cursor: pointer;
+
+}
+.add-to-cart:hover{
+    content: "Add to cart";
+}

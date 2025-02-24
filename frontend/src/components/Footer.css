@@ -1,0 +1,31 @@
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #041126;
+    color: white;
+    border: 2px solid orange;
+}
+
+
+.footer-first-section img{
+    width: 300px;
+}
+.footer-second-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+.company ul li{
+    list-style-type: none;
+}
+.connect ul{
+    display: flex;
+    gap: 20px;
+}
+.connect ul li{
+    list-style-type: none;
+}
+.connect ul li i{
+    font-size: 20px;
+}
